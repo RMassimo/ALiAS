@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Alias
 {
-    public partial class Form1 : Form
+    public partial class Alias : Form
     {
-        public Form1()
+        public Alias()
         {
             InitializeComponent();
         }
