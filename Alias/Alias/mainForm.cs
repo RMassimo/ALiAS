@@ -114,7 +114,8 @@ namespace Alias
                 chooseFolders chooseFolders = new chooseFolders();
                 chooseFolders.ShowDialog();
             } else {    // Altrimenti se ha almeno una volta avviato ALiAS
-                // DO-NOTHING
+                UpdateGames();
+                RefreshGames();
             }
         }
 
