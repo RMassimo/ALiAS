@@ -61,12 +61,11 @@ namespace Alias
                         {
                             appmanifest[i] = appmanifest[i].Substring(appmanifest[i].LastIndexOf('_') + 1);
                             appmanifest[i] = appmanifest[i].Remove(appmanifest[i].LastIndexOf(".acf"));
-                            //VECCHIO METODO ->     lbxLibrary.Items.Add("steam://rungameid/" + appmanifest[i]);
                             libraryGames.Add("steam://rungameid/" + appmanifest[i]);
                         }
                         catch
                         {
-                            // Niente
+                            // Niente per il momento, a dire la verita' mi sono dimenticato quello che volevo fare. Vado avanti -.-
                         }
                     }
                 }
@@ -122,6 +121,12 @@ namespace Alias
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSettings Settings = new frmSettings();
+            Settings.ShowDialog();
         }
 
         private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
