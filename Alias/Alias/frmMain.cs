@@ -129,6 +129,12 @@ namespace Alias
             Settings.ShowDialog();
         }
 
+        private void importToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmChooseFolders ChooseFolders = new frmChooseFolders();
+            ChooseFolders.ShowDialog();
+        }
+
         private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UpdateGames();

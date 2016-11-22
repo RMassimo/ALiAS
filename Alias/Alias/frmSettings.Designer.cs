@@ -40,6 +40,7 @@
             this.rdbWidth = new System.Windows.Forms.RadioButton();
             this.rdbHeight = new System.Windows.Forms.RadioButton();
             this.gbxRound = new System.Windows.Forms.GroupBox();
+            this.btnApply = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudGameLogoWidth)).BeginInit();
@@ -60,6 +61,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.btnApply);
             this.tabPage1.Controls.Add(this.gbxRound);
             this.tabPage1.Controls.Add(this.btnCheckResolution);
             this.tabPage1.Controls.Add(this.label2);
@@ -189,6 +191,16 @@
             this.gbxRound.TabStop = false;
             this.gbxRound.Text = "Round through";
             // 
+            // btnApply
+            // 
+            this.btnApply.Location = new System.Drawing.Point(457, 305);
+            this.btnApply.Name = "btnApply";
+            this.btnApply.Size = new System.Drawing.Size(75, 23);
+            this.btnApply.TabIndex = 8;
+            this.btnApply.Text = "Apply";
+            this.btnApply.UseVisualStyleBackColor = true;
+            this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
+            // 
             // frmSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -225,5 +237,6 @@
         private System.Windows.Forms.RadioButton rdbWidth;
         private System.Windows.Forms.RadioButton rdbHeight;
         private System.Windows.Forms.Button btnCheckResolution;
+        private System.Windows.Forms.Button btnApply;
     }
 }
