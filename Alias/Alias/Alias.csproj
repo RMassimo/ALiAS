@@ -46,25 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="chooseFolders.cs">
+    <Compile Include="frmChooseFolders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="chooseFolders.Designer.cs">
-      <DependentUpon>chooseFolders.cs</DependentUpon>
+    <Compile Include="frmChooseFolders.Designer.cs">
+      <DependentUpon>frmChooseFolders.cs</DependentUpon>
     </Compile>
-    <Compile Include="mainForm.cs">
+    <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mainForm.Designer.cs">
-      <DependentUpon>mainForm.cs</DependentUpon>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="chooseFolders.resx">
-      <DependentUpon>chooseFolders.cs</DependentUpon>
+    <EmbeddedResource Include="frmChooseFolders.resx">
+      <DependentUpon>frmChooseFolders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mainForm.resx">
-      <DependentUpon>mainForm.cs</DependentUpon>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

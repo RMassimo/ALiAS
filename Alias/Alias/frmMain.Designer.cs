@@ -1,6 +1,6 @@
 ﻿namespace Alias
 {
-    partial class mainForm
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.menu = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.flpGames = new System.Windows.Forms.FlowLayoutPanel();
             this.gamesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.refreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.flpGames = new System.Windows.Forms.FlowLayoutPanel();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,14 +74,6 @@
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
-            // flpGames
-            // 
-            this.flpGames.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpGames.Location = new System.Drawing.Point(0, 24);
-            this.flpGames.Name = "flpGames";
-            this.flpGames.Size = new System.Drawing.Size(607, 350);
-            this.flpGames.TabIndex = 1;
-            // 
             // gamesToolStripMenuItem
             // 
             this.gamesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -96,6 +88,14 @@
             this.refreshToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.refreshToolStripMenuItem.Text = "Refresh";
             this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
+            // 
+            // flpGames
+            // 
+            this.flpGames.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flpGames.Location = new System.Drawing.Point(0, 24);
+            this.flpGames.Name = "flpGames";
+            this.flpGames.Size = new System.Drawing.Size(607, 350);
+            this.flpGames.TabIndex = 1;
             // 
             // mainForm
             // 

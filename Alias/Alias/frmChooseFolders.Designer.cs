@@ -1,6 +1,6 @@
 ﻿namespace Alias
 {
-    partial class chooseFolders
+    partial class frmChooseFolders
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(chooseFolders));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmChooseFolders));
             this.bgxSteam = new System.Windows.Forms.GroupBox();
             this.btnFolder1 = new System.Windows.Forms.Button();
             this.btnFolder2 = new System.Windows.Forms.Button();

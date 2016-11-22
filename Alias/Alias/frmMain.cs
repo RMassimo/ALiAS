@@ -12,7 +12,7 @@ using System.Diagnostics;
 
 namespace Alias
 {
-    public partial class mainForm : Form
+    public partial class frmMain : Form
     {
 
         //  *** VARIABILI GLOBALI ***
@@ -25,7 +25,7 @@ namespace Alias
 
         //  *** INIZIO CODICE ***
 
-        public mainForm()
+        public frmMain()
         {
             InitializeComponent();
         }
@@ -111,7 +111,7 @@ namespace Alias
             // Controlla se ha gia' avviato ALiAS
             if (!System.IO.Directory.Exists(root))
             {
-                chooseFolders chooseFolders = new chooseFolders();
+                frmChooseFolders chooseFolders = new frmChooseFolders();
                 chooseFolders.ShowDialog();
             } else {    // Altrimenti se ha almeno una volta avviato ALiAS
                 UpdateGames();

@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Alias
 {
-    public partial class chooseFolders : Form
+    public partial class frmChooseFolders : Form
     {
 
         //  *** VARIABILI ***
@@ -20,7 +20,7 @@ namespace Alias
 
         //  *** CODICE ***
 
-        public chooseFolders()
+        public frmChooseFolders()
         {
             InitializeComponent();
         }
